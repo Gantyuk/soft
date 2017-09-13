@@ -1,0 +1,11 @@
+@font-face {
+    font-family: ProximaNova; /* Имя шрифта */
+    src: url(../fonts/ProximaNova-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+
+  @font-face {
+    font-family: HelveticaNeueCyr; /* Имя шрифта */
+    src: url(../fonts/HelveticaNeue.ttf); /* Путь к файлу со */
+   
+}
+ 

@@ -1,0 +1,319 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+.top_header{
+    background-color: #fafafa;
+    padding-bottom: 25px;
+}
+.logo{
+    padding-top: 25px; 
+}
+.Quality{
+    background-image: url(../img/Rectangle1.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    padding:4px 0px 7px 7px;
+    color: #fff; 
+    font-family: "ProximaNova";
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.rectangle{
+    background-image: url(../img/Rectangle.png);
+    background-repeat:no-repeat;
+    background-size: contain;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    padding: 1px 0px 0px 7px;
+    color: #fff; 
+    font-family: "ProximaNova";
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.soc_buttons{ 
+    float: right;
+    margin-top: 25px;
+}
+.contacts{
+    margin-top: 65px;
+    margin-right: -157px;
+    float: right;
+    color: #2d4871;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+.skyp{
+    text-align: right;
+     margin-top: 5px;
+}
+.menu_hidden{
+    background-color: #2a3366;
+    text-align: center;
+    height: 50px;
+    padding-top: 14px;
+}
+.menu{
+    padding-top: 15px;
+}
+ul.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+}
+li.li {
+    float: left;
+}
+.li a {
+    display: block;
+    color: #173765;
+    text-align: center;
+    margin: 14px 18px 4px 0px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.activ {
+    border-bottom: 3px solid #fab917;
+}
+.soc_buttons_smal{
+    text-align: center;
+    padding-top: 10px;
+}
+.contacts_smal{
+    padding-top: 10px;
+    font-weight: bold;
+}
+.heder{
+    margin-top: 25px;
+    background: url(../img/slide11.png) no-repeat center top;
+    background-position: center center;
+    min-height: 600px;
+    width: 100%;
+}
+.development{
+  margin-top: 35px;
+  margin-bottom: 3px;
+  font-size: 36px;
+  font-family: "HelveticaNeueCyr";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+}
+.content_header{
+    margin-top: 92px;
+    margin-bottom: 92px;
+    font-size: 19px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    text-align:justify;
+    font-weight:normal;
+    line-height: 1.137;
+}
+.header_button{
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: .6em 1em calc(.6em + 3px);
+    border-radius: 3px;
+    background:  rgb(250, 185, 23);
+    text-transform: uppercase;
+}
+.heder2{
+    background-color: #18284b;
+    min-height: 600px;
+    width: 100%;
+}
+.lable{
+    text-align: center;
+    font-family: "HelveticaNeueCyr";
+    color: rgb( 255, 255, 255 );
+    font-weight: bold;
+    font-size: 1.341cm;
+    margin-top: 100px;
+    text-transform: uppercase;
+} 
+.text{
+    margin-top: 20px;
+    text-align:inherit;
+    font-size: 0.776cm;
+    font-family: "HelveticaNeueCyr";
+    color: rgb( 255, 255, 255 );
+    line-height: 1.137;
+}
+.lable img {
+    margin-bottom: 50px;
+}
+.center{
+    margin-top: 180px;
+    height: 1322px;
+    float: left;
+    margin-left: -5px;
+}
+.heder3{
+    background: url(../img/Ellements.png) no-repeat center top;
+    background-position: top center;
+    min-height: 850px;
+    width: 100%;
+}
+.quote{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 43px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(24, 40, 75);  
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.senior{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 26px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(24, 40, 75);
+    font-weight: bold;
+}
+.None{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(24, 40, 75);  
+   
+}
+.forma{
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(17, 53, 89);
+    margin-top: 54px;
+}
+.forma input[type=text] {
+    width: 46%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border-width: 0.03527777777778cm;
+    border-color: rgb( 24, 40, 75 );
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border-radius: 0.106cm;
+}
+.forma textarea{
+    padding: 8px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border-width: 1px;
+    border-color: rgb(24, 40, 75);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 95%;
+    height: 100px;
+    border-radius: 0.106cm;
+}
+.forma input[type=submit] {
+    border-radius: 0.141cm;
+    background-color: rgb( 250, 185, 23 );
+    font-weight: 700;
+    font-size: 17px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: .6em 1em calc(.6em + 3px);
+    border: none;
+    margin-left: 26%;
+    margin-top: 65px;
+}
+.heder4{
+    margin-top: 0px;
+    background: url(../img/Layer%202.png) no-repeat center top;
+    background-position: top center;
+    min-height: 654px;
+    width: 100%;
+}
+.who{
+    text-align: left;
+    font-size: 38px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    font-weight: bold; 
+    text-transform: uppercase;
+}
+.list li{
+    font-size: 21px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+}
+.list,.buton_heder, .who{
+    margin-top: 55px;
+}
+.heder5{
+    background-color: rgb(250, 185, 23);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.hapy{
+    font-size: 32px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.foter{
+    background-color: rgb(24, 40, 75);
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.fouter_lincs{
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255); 
+     
+}
+.fouter_lincs a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+}
+.Copyright{
+    padding-top: 6px;    
+}
+.technologies{
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(255, 255, 255);
+    text-align: right;
+    margin-top: -45px;   
+}

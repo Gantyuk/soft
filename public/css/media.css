@@ -1,0 +1,176 @@
+/*==========  Desktop First Method  ==========*/
+/*
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1024px) {
+    .Quality{
+        font-size: 13px;
+    }
+    .rectangle {
+        font-size: 14px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .menu{
+        display: block;
+    }
+    .lable{
+         font-size: 1cm;
+    }
+    .center{
+        height: 1387px;
+        margin-left: -7px
+    }
+    .list li{
+        font-size: 20px;
+    }
+    .hapy {
+        font-size: 27px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+   .Quality{
+        font-size: 13px;
+        width: 374px;
+    } 
+    .menu{
+        display: none;  
+        background-color: #3c6493
+    }
+    li.li {
+        float: none;
+    }
+    li a {
+        text-align: left;
+        color: aliceblue;
+    }
+    ul.ul {
+        float: left;
+        margin-top: -16px;
+        
+    }
+    .center{
+        display: none;
+    }
+    .heder2{
+        padding-bottom: 50px;
+    }
+    .hapy {
+        font-size: 25px;
+    }
+    .technologies {
+        text-align: center;
+        margin-top: 14px;
+    }
+    .fouter_lincs {
+        text-align: center;
+    }
+}
+@media only screen and (max-width : 425px) {
+    input[type=text]{
+        width: 95%;
+    }
+    input[type=submit] {
+        margin-bottom: 50px;
+        margin-left: 15%;
+    }
+    .list li{
+        font-size: 16px;
+    }
+     .fouter_lincs {
+        font-size: 15px;
+    }
+    .technologies {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+    .hapy {
+        font-size: 13px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 375px) {
+   .Quality{
+        font-size: 12px;
+        width: 345px;
+    }
+    .logo {
+        width: 100%;
+    }  
+    input[type=submit] {
+        margin-left: 10%;
+    }
+    .hapy,.technologies {
+        font-size: 12px;
+    }
+    .fouter_lincs {
+    font-size: 14px;
+}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+     .Quality{
+        font-size: 10px;
+        width: 291px;
+    }
+    .rectangle {
+        font-size: 12px;
+    }
+    .development{
+        font-size: 32px;
+    }
+    textarea,input[type=text]{
+        width: 100%;
+    }
+    input[type=submit] {
+        margin-left: 5%;
+    }
+    .list li {
+        font-size: 14px;
+    }
+    .hapy,.technologies {
+        font-size: 10px;
+    }
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    
+    
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ .menu{
+        display: block !important;
+    }
+    .heder2 .container .row .col-md-6{
+    width: 48% !important;
+}
+    
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1024px) {
+   
+}
